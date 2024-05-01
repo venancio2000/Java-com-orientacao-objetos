@@ -12,6 +12,7 @@ public class Loop {
             nota = leitura.nextDouble();
             mediaAvaliacao += nota;
         }
+
         System.out.println("Media de avaliações " + mediaAvaliacao);
 
 
