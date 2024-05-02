@@ -3,7 +3,7 @@ public class Format {
         String nome = "bruno";
         int idade = 29;
         double valor = 55.999;
-        System.out.println(String.format("meu nome é %s, eu tenho %d anos, e hoje eu gastei %.2f reais", nome, idade, valor));
+        //System.out.println(String.format("meu nome é %s, eu tenho %d anos, e hoje eu gastei %.2f reais", nome, idade, valor));
 
         String nomes = "João";
         int aulas = 4;
