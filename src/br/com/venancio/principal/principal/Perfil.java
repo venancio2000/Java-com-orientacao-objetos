@@ -1,3 +1,5 @@
+package br.com.venancio.principal.principal;
+
 public class Perfil {
 
     public static void main(String[] args){

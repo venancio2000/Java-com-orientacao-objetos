@@ -1,3 +1,5 @@
+package br.com.venancio.principal.principal;
+
 import java.util.Scanner;
 
 public class OutroLoop {

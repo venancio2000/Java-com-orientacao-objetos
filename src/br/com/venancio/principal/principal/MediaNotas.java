@@ -1,3 +1,5 @@
+package br.com.venancio.principal.principal;
+
 public class MediaNotas {
     public static void main(String[] args){
 

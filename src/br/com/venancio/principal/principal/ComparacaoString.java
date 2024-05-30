@@ -1,3 +1,5 @@
+package br.com.venancio.principal.principal;
+
 public class ComparacaoString {
     public static void main(String[] args){
 

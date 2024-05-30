@@ -1,3 +1,5 @@
+package br.com.venancio.principal.principal;
+
 public class VendaPrincipal {
     public static void main(String[] args) {
         Venda venda1 = new Venda();

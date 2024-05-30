@@ -1,3 +1,5 @@
+package br.com.venancio.principal.principal;
+
 public class ContaBancaria {
     public String titular;
     private String numeroConta;

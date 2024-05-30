@@ -1,3 +1,5 @@
+package br.com.venancio.principal.principal;
+
 public class Switch {
     public static void main(String[] args) {
         int dia = 31;

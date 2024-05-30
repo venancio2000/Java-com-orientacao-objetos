@@ -1,3 +1,5 @@
+package br.com.venancio.principal.principal;
+
 public class Estudos {
     public static void main(String[] args){
         System.out.println("JVM (Java Virtual Machine) - é a Maquina Virtual do Java responsavel por executar o bytecode");
