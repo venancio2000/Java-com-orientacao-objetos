@@ -23,7 +23,7 @@ public class ContaBancaria {
 
     public void depositar(double valor){
         saldo += valor;
-        System.out.println("Dépósito de R$ " + valor + " Realizado");
+        System.out.println("Dépósito de R$ " + valor + " realizado com sucesso");
     }
 
     public void sacar(double valor){
