@@ -42,7 +42,7 @@ public class Principal {
         }
         System.out.println("\n***********************");
 
-        System.out.println("\nSaldo do cartão: " +cartao.getSaldo());
+        System.out.println("\nSaldo do cartão: " + cartao.getSaldo());
 
     }
 }
