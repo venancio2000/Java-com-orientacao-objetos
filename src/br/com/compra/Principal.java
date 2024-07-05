@@ -1,14 +1,12 @@
 package br.com.compra;
 
-import java.text.CollationElementIterator;
 import java.util.Collections;
 import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {
-
         Scanner leitura = new Scanner(System.in);
-        System.out.println("Digite o limite do cartão: ");
+        System.out.println("Qual e o seu valor limite do seu cartão: ");
         double limite = leitura.nextDouble();
         CartaoDeCredito cartao = new CartaoDeCredito(limite);
 
@@ -32,17 +30,13 @@ public class Principal {
                 sair = 0;
             }
         }
-
-        System.out.println("***********************");
-        System.out.println("COMPRAS REALIZADAS:\n");
-
+        System.out.println("****************************");
         Collections.sort(cartao.getCompras());
-        for (Compra c : cartao.getCompras()) {
+        for (Compra c: cartao.getCompras()){
             System.out.println(c.getDescricao() + " - " +c.getValor());
         }
         System.out.println("\n***********************");
 
-        System.out.println("\nSaldo do cartão: " + cartao.getSaldo());
-
+        System.out.println("\nSaldo do cartão: " +cartao.getSaldo());
     }
 }

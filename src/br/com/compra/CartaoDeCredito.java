@@ -8,13 +8,14 @@ public class CartaoDeCredito {
     private double saldo;
     private List<Compra> compras;
 
-    public CartaoDeCredito(double limete){
-        this.limete = limete;
-        this.saldo = limete;
+    public CartaoDeCredito(double limite) {
+        this.limete = limite;
+        this.saldo = limite;
         this.compras = new ArrayList<>();
     }
+
     public boolean lancaCompra(Compra compra) {
-        if(this.saldo >= compra.getValor()) {
+        if(this.saldo >= compra.getValor()){
             this.saldo -= compra.getValor();
             this.compras.add(compra);
             return true;
@@ -22,7 +23,6 @@ public class CartaoDeCredito {
 
         return false;
     }
-
     public double getLimete() {
         return limete;
     }
@@ -34,4 +34,5 @@ public class CartaoDeCredito {
     public List<Compra> getCompras() {
         return compras;
     }
+
 }

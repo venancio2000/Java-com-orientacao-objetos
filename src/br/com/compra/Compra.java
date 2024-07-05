@@ -20,11 +20,11 @@ public class Compra implements Comparable<Compra>{
     @Override
     public String toString() {
         return "Compra: descricao = " + descricao +
-                ", valor = " + valor;
+                " valor =" + valor;
     }
 
     @Override
-    public int compareTo(Compra outraConta) {
-        return Double.valueOf(this.valor).compareTo(Double.valueOf(outraConta.valor));
+    public int compareTo(Compra outraCompra) {
+        return Double.valueOf(this.valor).compareTo(Double.valueOf(outraCompra.valor));
     }
 }
